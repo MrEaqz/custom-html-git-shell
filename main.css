@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Lucida Console";
+    src: url("./fonts/Lucida-Console-Regular.woff") format("woff");
+   }
+
+.container {    
+    height: 700px;
+    width: 600px;
+    background-color: black;
+    font-family: "Lucida Console"
+}
+
+.mega-container {
+    height: 93%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: none;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+.mega-container::-webkit-scrollbar {
+  display: none;
+}
+
+
+.header {
+    height: 35px;
+    width: 600px;
+    background-color: rgb(46, 46, 46);
+    cursor: grab;
+}
+
+.separator {
+    height: 1px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-text {
+    display: inline-block;
+    vertical-align: 4px;
+    font-family: "Arial";
+    font-size: 11px;
+}
+
+.header-image {
+    display: inline-block;
+}
+
+.header-text > span {
+    margin-left: 10px;
+    color: rgb(187, 187, 187);
+}
+
+.header-image > img {
+    margin-top: 7px;
+    margin-left: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.header-button > .header-close {
+    margin-top: -30px;
+    margin-left: 545px;
+    height: 35px;
+    width: 55px;
+    background-image: url('./img/cross_white.png');
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-button > .header-close:hover {
+    background-color:rgb(225, 51, 51);
+    background-image: url('./img/cross_black.png');
+    cursor: pointer;
+}
+
+.message {
+    margin-left: 5px;
+    color: white;
+    font-size: 11px;
+}
+
+.message > p {
+    display: inline-block;
+}
+
+.message > span {
+    color: rgb(187, 187, 187);
+    margin-top: -5px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.input {
+    display: inline-flex;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.input > input {
+    margin-top: 0px;
+    width: 575px;
+    font-size: 11px;
+    margin-left: 5px;
+    color: rgb(202, 202, 202);
+    background-color: black;
+    outline: none;
+    border-width:0px;
+    border:none;
+}
+
+.input > span {
+    display: block;
+    font-size: 13px;
+    padding-top: 2px;
+    color: rgb(202, 202, 202);
+}
+
+.input > input:focus {
+    color: rgb(202, 202, 202);
+}
+
+.green {
+    color: rgb(0, 201, 0);
+}
+
+.pink {
+    color: rgb(214, 0, 214);
+}
+
+.yellow {
+    color: rgb(202, 202, 5);
+}
+
+.blue {
+    color: rgb(60, 207, 193);
+}
